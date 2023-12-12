@@ -9,6 +9,8 @@ import HomeInfo from "../components/HomeInfo";
 
 import sakura from "../assets/sakura.mp3";
 import { soundoff, soundon } from "../assets/icons";
+import DragonRight from "../models/Dragon";
+import DragonLeft from "../models/Dragon2";
 
 const Home = () => {
   const audioRef = useRef(new Audio(sakura));
@@ -85,6 +87,8 @@ const Home = () => {
           />
 
           <Bird />
+          <DragonRight />
+          <DragonLeft />
           <Sky isRotating={isRotating} />
           <Island
             position={islandPosition}

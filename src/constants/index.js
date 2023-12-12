@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { ddtc, indodax, sfund } from "../assets/images";
 import {
   car,
   contact,
@@ -15,15 +15,18 @@ import {
   mui,
   nextjs,
   nodejs,
-  pricewise,
   react,
   redux,
   sass,
-  snapgram,
-  summiz,
   tailwindcss,
-  threads,
   typescript,
+  vuejs,
+  nuxtjs,
+  antd,
+  jquery,
+  mysql,
+  sanity,
+  bootstrap,
 } from "../assets/icons";
 
 export const skills = [
@@ -58,8 +61,23 @@ export const skills = [
     type: "Frontend",
   },
   {
+    imageUrl: jquery,
+    name: "Jquery",
+    type: "Frontend",
+  },
+  {
     imageUrl: mongodb,
     name: "MongoDB",
+    type: "Database",
+  },
+  {
+    imageUrl: mysql,
+    name: "MySQL",
+    type: "Database",
+  },
+  {
+    imageUrl: sanity,
+    name: "Sanity",
     type: "Database",
   },
   {
@@ -70,6 +88,11 @@ export const skills = [
   {
     imageUrl: mui,
     name: "Material-UI",
+    type: "Frontend",
+  },
+  {
+    imageUrl: bootstrap,
+    name: "Bootstrap",
     type: "Frontend",
   },
   {
@@ -107,56 +130,56 @@ export const skills = [
     name: "TypeScript",
     type: "Frontend",
   },
+  {
+    imageUrl: vuejs,
+    name: "Vuejs",
+    type: "Frontend",
+  },
+  {
+    imageUrl: nuxtjs,
+    name: "Nuxtjs",
+    type: "Frontend",
+  },
+  {
+    imageUrl: antd,
+    name: "Ant Design",
+    type: "Frontend",
+  },
 ];
 
 export const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#accbe1",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Frontend Developer",
+    company_name: "PT Surya Fajar Urun Dana",
+    icon: sfund,
     iconBg: "#fbc3bc",
-    date: "Jan 2021 - Feb 2022",
+    date: "Apr 2021 - Aug 2022",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#b7e4c7",
-    date: "Jan 2022 - Jan 2023",
+    title: "Frontend Engineer",
+    company_name: "DDTC",
+    icon: ddtc,
+    iconBg: "#accbe1",
+    date: "Aug 2021 - Sep 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Creating a website app name PMS (project management system) using Vuejs and Nuxt js",
+      "Maintaince website application internal",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#a2d2ff",
-    date: "Jan 2023 - Present",
+    title: "Frontend Engineer",
+    company_name: "PT Indodax",
+    icon: indodax,
+    iconBg: "#169dd0",
+    date: "Oct 2022 - PRESENT",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining web applications using Jquery and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
@@ -184,20 +207,21 @@ export const socialLinks = [
 
 export const projects = [
   {
-    iconUrl: pricewise,
+    iconUrl: "https://devtalkflow.vercel.app/assets/images/site-logo.svg",
     theme: "btn-back-red",
-    name: "Amazon Price Tracker",
+    name: "Dev Overflow",
     description:
-      "Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.",
-    link: "https://github.com/adrianhajdin/pricewise",
+      "Developed a web application that user can create a question and helping other developer question.",
+    link: "https://devtalkflow.vercel.app/",
+    linkGithub: "https://github.com/velvas45/stack_overflow_next13",
   },
   {
-    iconUrl: threads,
+    iconUrl: "https://static.thenounproject.com/png/263772-200.png",
     theme: "btn-back-green",
-    name: "Full Stack Threads Clone",
-    description:
-      'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-    link: "https://github.com/adrianhajdin/threads",
+    name: "Wedding Invitation Website",
+    description: "Created a full-stack wedding invitation for inviting people.",
+    link: "https://wedding-ha.netlify.app/?invitation_to=*!0VQF*x1H9J1VbZ",
+    linkGithub: "https://github.com/velvas45/wedding-invitation",
   },
   {
     iconUrl: car,
@@ -205,30 +229,25 @@ export const projects = [
     name: "Car Finding App",
     description:
       "Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.",
-    link: "https://github.com/adrianhajdin/project_next13_car_showcase",
+    link: "https://next-carhub-kohl.vercel.app/",
+    linkGithub: "https://github.com/velvas45/next-carhub",
   },
   {
-    iconUrl: snapgram,
+    iconUrl:
+      "https://omegasolusindobersama.co.id/static/media/logo-osb-new.5b25b9d3cae4b9660425.png",
     theme: "btn-back-pink",
-    name: "Full Stack Instagram Clone",
-    description:
-      "Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.",
-    link: "https://github.com/adrianhajdin/social_media_app",
+    name: "Company Profile Website",
+    description: "Built Landing Page for Company Profile",
+    link: "https://omegasolusindobersama.co.id/",
+    linkGithub: "https://gitlab.com/helmiagustiawan905/company-profile-omega",
   },
   {
     iconUrl: estate,
     theme: "btn-back-black",
-    name: "Real-Estate Application",
+    name: "Indodax",
     description:
-      "Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.",
-    link: "https://github.com/adrianhajdin/projects_realestate",
-  },
-  {
-    iconUrl: summiz,
-    theme: "btn-back-yellow",
-    name: "AI Summarizer Application",
-    description:
-      "App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.",
-    link: "https://github.com/adrianhajdin/project_ai_summarizer",
+      "Indodax is crypto market number 1 in indonesia. Created using php, Nuxt 3. And i created a feature called `recurring Investment` in Website Apps",
+    link: "https://indodax.com/market/",
+    linkGithub: "https://indodax.com/market/",
   },
 ];

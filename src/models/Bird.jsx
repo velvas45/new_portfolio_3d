@@ -39,7 +39,7 @@ const Bird = () => {
   });
 
   return (
-    <mesh position={[-5, 2, 1]} scale={[0.003, 0.003, 0.003]} ref={birdRef}>
+    <mesh position={[5, 2, 1]} scale={[0.003, 0.003, 0.003]} ref={birdRef}>
       <primitive object={scene} />
     </mesh>
   );
