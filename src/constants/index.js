@@ -1,4 +1,4 @@
-import { ddtc, indodax, sfund } from "../assets/images";
+import { ddtc, indodax, sfund, apple } from "../assets/images";
 import {
   car,
   contact,
@@ -249,5 +249,13 @@ export const projects = [
       "Indodax is crypto market number 1 in indonesia. Created using php, Nuxt 3. And i created a feature called `recurring Investment` in Website Apps",
     link: "https://indodax.com/market/",
     linkGithub: "https://indodax.com/market/",
+  },
+  {
+    iconUrl: apple,
+    theme: "btn-back-black",
+    name: "Apple Iphone Clone",
+    description: "Designed and built a mobile app for finding a new iPhone 15.",
+    link: "https://iphone-clone-mu.vercel.app/",
+    linkGithub: "https://github.com/velvas45/iphone-clone",
   },
 ];
